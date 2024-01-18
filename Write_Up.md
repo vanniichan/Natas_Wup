@@ -63,3 +63,23 @@ Không có gì
   
 ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/e2114681-183f-4088-8f9e-2f98e4062d45)
 
+---
+# Lv 8 --> 9
+- Vào src code ta thấy có function passthru() hàm này có thể hiểu được nó thực thi các lệnh được gọi đến, chính vì thế có thể nó sẽ dễ xảy ra lỗ hổng OS Command
+
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/1c211703-026d-4db7-bf99-faa11accc1b9)
+
+- Trước đó có lệnh `grep -i` nên không thể dùng lệnh `cat` luôn được mà trước đó phải dùng `;` để ngắt câu lệnh này
+
+- Vì passwword luôn nằm ở /etc/natas_webpass/natas nên dùng lệnh này để lấy password
+ `; cat /etc/natas_webpass/natas10`
+
+---
+# Lv 9 --> 10
+- Vào src code ta thấy có function passthru() tuy nhiên đã bị filter 1 số ký tự
+
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/e251c2be-8c2b-4e02-a5c7-9868c1f40636)
+
+- Tuy nhiên vẫn có 1 số cách như ("grep -i" " ...") vẫn dùng được
+`"" cat /etc/natas_webpass/natas11`
+  
