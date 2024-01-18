@@ -38,4 +38,28 @@ Không có gì
 
 - Sửa lại 1 và Refresh trang và lấy được pass
 
+---
+# Lv 5 --> 6
+- Xem src code site, ta có đoạn mã như sau:
+- 
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/fa064fb6-e68b-4e01-93f5-9dd657bd37b7)
+
+- Đoạn code này so sánh input có khớp với nôi dung file `secret.inc`. Và như đoạn code này ngta còn để lộ path để lấy nội dung file này
+  
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/9a2e3add-f357-44c2-8450-a5680212f3d7)
+---
+# Lv 6 --> 7
+- Mở src code thấy hint:
+- Cái này nghĩ đến IDOR thử và thành công luôn 
+`http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8`
+
+---
+# Lv 7 --> 8
+- Vào src code ta thấy một code đã encode
+  
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/1c54a40e-da5b-4f2c-ad97-c9b0d6a85959)
+
+- Viết payload để decode nó ra
+  
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/e2114681-183f-4088-8f9e-2f98e4062d45)
 
