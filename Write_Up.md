@@ -89,4 +89,22 @@ Không có gì
 
   ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/1545551f-fcd3-4010-83e6-d33382a80a73)
 
-- 
+- Sơ qua ta thấy code này liên quan đến việc trao quyền cookie để có thể access vào lấy password 
+- Biến đầu tiên có thể thấy biến có `showpassword ==> no` bây giờ làm sao chuyển thành `yes` để lấy pass
+- Hàm dưới là sử dụng XOR thông qua `k = p^c` hiện tại chúng ta đã có p(plaintext). Vậy **mục tiêu đề ra** là  chuyển cho `showpassword ==> yes` và cần key(key sẽ không đổi vì nó dùng cho việc encode lại) để có được c(cipher)
+- Dòng 4 hàm `loadData` cho thấy data từ cookie sẽ decode = base64
+
+![Ảnh chụp màn hình 2024-01-23 232238](https://github.com/vanniichan/Natas_Wup/assets/112863484/7d70a451-ccec-4b73-bd4f-d53d0235b7a1)
+
+- CHúng ta đã có c từ đây tìm ra k:
+  
+- ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/73a8c950-66da-4760-8cbc-551442d05ae1)
+
+- ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/c0838e0f-a12a-49f0-a725-300d04fe3c35)
+
+- k = 4 ký tự `KNHL`
+
+- ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/3a4af070-472c-42ef-80e4-3ddad455ca06)
+
+- Đổi cookie và lấy được password
+
