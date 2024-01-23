@@ -82,4 +82,11 @@ Không có gì
 
 - Tuy nhiên vẫn có 1 số cách như ("grep -i" " ...") vẫn dùng được
 `"" cat /etc/natas_webpass/natas11`
-  
+
+---
+# Lv 10 --> 11
+- Vào xem src code
+
+  ![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/1545551f-fcd3-4010-83e6-d33382a80a73)
+
+- 
