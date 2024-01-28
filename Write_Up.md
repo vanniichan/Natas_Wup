@@ -108,3 +108,20 @@ Không có gì
 
 - Đổi cookie và lấy được password
 
+---
+# Lv 11 --> 12
+- Src code bài này ở php không có gì đáng chú ý
+
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/692c23ae-2a16-4251-ac98-64890c352138)
+
+- Tuy nhiên ở phần tag `input` ta thấy:
+
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/220f2e2d-13db-4591-9f7d-84061aca85f6)
+
+- Tức là ta có thể thay đổi được đuôi file để sau đó vào đường link để đoạn code được thực thi
+- F12 để đổi đuôi file và lấy được pass
+
+![image](https://github.com/vanniichan/Natas_Wup/assets/112863484/2cea23cd-ab53-4a76-9b65-175f53f4b8dd)
+
+---
+# Lv 12 --> 1313
